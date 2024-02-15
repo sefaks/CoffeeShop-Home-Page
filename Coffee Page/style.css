@@ -1,0 +1,260 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins',sans-serif;
+    box-sizing: border-box;
+
+}
+
+body{
+
+    background: #000;
+    color:rgb(231, 226, 226);
+    background-image: linear-gradient(rgba(24, 23, 23, 0.7),rgba(27, 26, 26, 0.7)),url("./images/back.jpg");
+    background-size:cover ;
+    background-position: center;
+
+}
+
+.header{
+
+    width: 100%;
+    height: 10%;
+    
+    display: flex;
+    padding: 10px 8%;
+
+
+}
+
+.header nav{
+
+
+    margin-top: 180px;
+    width: 100%;
+    color:#fff;
+    padding:  0 15px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.header .brand{
+
+    width: 100%;
+    margin-bottom: 30px;
+    font-weight: 700px;
+
+    
+   
+    
+}
+.header .brand p{
+
+ 
+    font-size:50px;
+    color:antiquewhite;
+    padding-bottom: 30px;
+}
+
+.header .brand button{
+
+
+
+    font-size: 30px;
+    margin-top: 20px;
+    padding: 10px 25px 10px 25px ;
+    border-radius: 5px;
+    background: rgb(230, 14, 14);
+    border: #000;
+    box-shadow: rgb(230, 68, 68)10px rgba(0, 0, 0, 0.1);
+    color:rgb(250, 249, 247);
+    cursor:pointer;
+    transition: background-color 0.3s ease;
+}
+
+.header .brand button:hover {
+    background-color: #a73137;
+}
+
+
+.coffee-container{
+
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(30rem,1fr));
+    gap: 10px;
+    padding: 0 30px;
+    margin-top: 60px;
+    margin-bottom: 400px;
+    align-items: center;
+     justify-content: space-between;
+
+
+  
+}
+
+.coffee-container .box{
+
+    
+    width: 78%;
+    background:rgb(37, 37, 34);
+    height: 750px;
+    border-radius: 5px;
+    font-size: 25px;
+    align-items: center;
+    object-fit: cover;
+    outline: 0;
+    margin-top: 45px;
+    margin-left: 90px;
+
+ 
+
+   
+}
+
+.coffee-container .box .image{
+
+    width: 100%; 
+    height: 60%;
+    background:  #705858;
+    border: .1rem solid rgba(187, 173, 155, 0.2);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+ 
+    filter: grayscale(30%);
+    transition: transform 0.5s;
+    font-size: 25px;
+    object-fit: cover;
+   
+}
+
+.coffee-container .box .image img{
+
+    align-items: center;
+   
+}
+.coffee-container .box .image:hover{
+    filter: grayscale(0);
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.coffee-container .box .content{
+
+    width: 100%; 
+    font-size: 10px;
+   padding-left: 50px;
+   margin-top:25px ;
+   color:#ece6e6
+   
+}
+.box .content h1 {
+    margin-bottom: 10px; 
+    font-size: 30px;
+    color:#b11a1a
+}
+.box .content h3 {
+    margin-bottom: 10px; 
+    font-size: 20px;
+
+}
+.box .content h4 {
+    margin-bottom: 10px; 
+    font-size: 25px;
+
+}
+
+.box .content h5 {
+    margin-bottom: 10px; /* İstediğiniz boşluğu buradan ayarlayabilirsiniz */
+    font-size: 25px;
+}
+
+.box .content p {
+    margin-bottom: 10px; /* İstediğiniz boşluğu buradan ayarlayabilirsiniz */
+    font-size: 23px;
+}
+
+.coffee-container .box  button {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    font-weight: 600;
+    padding: 5px 30px;
+    border-radius: 6px;
+    background: #b11a1a;
+    color:#fff;
+    margin-left: 200px;
+    margin-bottom: 30px;
+    cursor: pointer;
+    position: absolute;   
+ 
+}
+
+
+.coffee-container .box button:hover {
+    background: #c49191;
+}
+ 
+
+.coffee-container .box .image img{
+
+    width: 100%;
+    height:100%;
+
+}
+
+
+
+
+
+
+footer {
+    
+    padding: 50px 0;
+    text-align: center;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+textarea {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+button[type="submit"] {
+    background-color: #d4b7b7;
+    color: #161313;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #db0001;
+}
